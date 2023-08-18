@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "878484870679",
+    "project_id": "facerecozn",
+    "storage_bucket": "facerecozn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878484870679:android:084d881f59e0f1fa966e52",
+        "android_client_info": {
+          "package_name": "com.harsha.facerecozn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878484870679-d53ib93dhdoibkdboa7bk09j016ge830.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7qjz74L6XLSHhEjWQyZ6TGFwPLu39QUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878484870679-d53ib93dhdoibkdboa7bk09j016ge830.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
