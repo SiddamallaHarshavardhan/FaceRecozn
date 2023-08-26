@@ -123,6 +123,7 @@ FaceDetectorOptions highAccuracyOpts =
     private void performDetection(Bitmap input){
 
        Bitmap mutableBITMAP= input.copy(Bitmap.Config.RGB_565,true);
+
         Canvas canvas=new Canvas(mutableBITMAP);
         InputImage imageInput = InputImage.fromBitmap(input, 0);
         Task<List<Face>> result =
@@ -140,8 +141,8 @@ FaceDetectorOptions highAccuracyOpts =
                                             Paint p1=new Paint();
                                                 p1.setColor(Color.RED);
                                                 p1.setStyle(Paint.Style.STROKE);
-                                                p1.setStrokeWidth(5);
-                                                performRecognition(bounds,input);
+                                                p1.setStrokeWidth(10);
+
                                             canvas.drawRect(bounds,p1);
 
                                         }
